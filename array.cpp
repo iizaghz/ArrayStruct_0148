@@ -16,5 +16,16 @@ int main() {
     //menampilkan isi array pada index tertentu
     cout << "Tmapilkan skor ke 3" << skor[2] << endl;
 
-
+    //menngisi array dengan loop for
+    for(int n = 0 ; n < 3 ; n++ ) {
+        cout << "Mahasiswa ke-"  << n+1 << endl;
+        cout << "Nama Mahasiswa =";
+        cin >> nama[n];
+    }
+    cout << endl;
+    // menampilkan isi array
+    for(int n = 0 ; n < 3 ; n++ ) {
+        cout << "Data ke-" << n+1 << endl;
+        cout << "Data Mahasiawa = " << nama[n] << endl;
+    }
 }
